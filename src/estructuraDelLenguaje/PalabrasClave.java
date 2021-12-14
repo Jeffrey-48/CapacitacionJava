@@ -1,4 +1,4 @@
-package capacitacionJava.EstructuraDelLenguaje;
+package estructuraDelLenguaje;
 
 public class PalabrasClave {
 
