@@ -55,10 +55,10 @@ public class SetJava {
 		* Elementos unicos y ordenados por la adicion a la lista
 		 */
 		Set<Estudiante> listaL = new LinkedHashSet<>();
+		listaL.add(new Estudiante(3, "zxc", 23, new Date()));
+
 		listaL.add(new Estudiante(1, "asf", 18, new Date()));
 		listaL.add(new Estudiante(2, "fgh", 20, new Date()));
-		listaL.add(new Estudiante(1, "jkl", 22, new Date()));
-		listaL.add(new Estudiante(3, "zxc", 23, new Date()));
 		for (Estudiante estudiante : listaL) {
 			System.out.println(estudiante);
 		}

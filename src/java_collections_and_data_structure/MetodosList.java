@@ -5,7 +5,7 @@ public class MetodosList {
 	/*
 	 * Metodos:
 	 * 
-	 * sise(); indica el tamaño de la lista
+	 * size(); indica el tamaño de la lista
 	 * isEmpy(); indica si la lista esta vacia o no
 	 * contains(object) indica si el objeto esta en la lista
 	 * add(element) agrega el elemento a la lista

@@ -1,6 +1,6 @@
 package java_collections_and_data_structure;
 
-public class Persona /*implements Comparable<Persona>*/{
+public class Persona /*implements Comparable<T>*/{
 	
 	private int id;
 	private String nombre;
@@ -37,7 +37,7 @@ public class Persona /*implements Comparable<Persona>*/{
 	}
 
 //	@Override
-//	public int compareTo(Persona o) {
+//	public int compareTo(Object o) {
 //		return this.edad - o.getEdad();
 //	}
 	

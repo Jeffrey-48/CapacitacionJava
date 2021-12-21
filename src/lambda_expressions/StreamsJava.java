@@ -22,7 +22,8 @@ public class StreamsJava {
 	}
 	
 	public void filtrar() {
-		lista.stream().filter(x -> x.startsWith("c")).forEach(System.out::println);
+		lista.stream().filter(x -> x.startsWith("c"))
+		.forEach(System.out::println);
 	}
 	
 	public void ordenar() {

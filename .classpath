@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="ejercicio"/>
 	<classpathentry kind="src" path="ejercicio2"/>
 	<classpathentry kind="src" path="patrones_de_disenio"/>
+	<classpathentry kind="src" path="ejercicio_aplicacion_coleccion"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

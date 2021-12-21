@@ -55,4 +55,8 @@ public class FlatmapJava {
 		// el acoplamiento
 		System.out.println(flatMapList);
 	}
+	/*
+	 * Dado una cadena de palabras "Jeffrey esta de 100 caracteres" dada dicha lista
+	 * retorne el listado de todas las letras y cuantas veces se repiten
+	 */
 }
