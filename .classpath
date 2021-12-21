@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="ejercicio"/>
 	<classpathentry kind="src" path="ejercicio2"/>
+	<classpathentry kind="src" path="patrones_de_disenio"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

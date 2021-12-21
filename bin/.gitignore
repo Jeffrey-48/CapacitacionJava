@@ -1,5 +1,6 @@
-/modelo/
-/app/
+/decorator/
+/observer/
+/singleton/
 /java_collections_and_data_structure/
-/conceptosProgramaciónOrientadaObjetos/
-/lambda_expressions/
+/factory/
+/builder/

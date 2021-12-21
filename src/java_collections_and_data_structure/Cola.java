@@ -1,5 +1,7 @@
 package java_collections_and_data_structure;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class Cola {
@@ -53,6 +55,23 @@ public class Cola {
 				System.out.println("Error en el tipo de informacion");
 			}
 		} while (opcion != 4);
+		
+		/*Creamos la Cola Indicando el tipo de dato*/
+        Queue<Integer> cola2=new LinkedList();
+        /*Insertamos datos*/
+            cola2.offer(3);
+            cola2.add(14);
+            cola2.offer(12);
+            cola2.add(7);
+            cola2.offer(10);
+        /*Impresion de la Cola llena con los datos*/
+        System.out.println("Cola llena: " + cola2);
+        /*Estructura repetitiva para desencolar*/
+        while(cola2.poll()!=null){//Desencolamos y el valor se compara con null
+            System.out.println(cola2.peek());//Muestra el nuevo Frente
+        }
+        /*Muestra null debido a que la cola ya esta vacia*/
+        System.out.println(cola2.peek());
 	}
 
 	public boolean colaVacia() {
